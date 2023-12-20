@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>计算器</title>
+
+  <script>
+    function 计算平均值() {
+      var 数字1 = parseFloat(document.getElementById("number1").value);
+      var 数字2 = parseFloat(document.getElementById("number2").value);
+      var 数字3 = parseFloat(document.getElementById("number3").value);
+
+      var 平均值 = (数字1 + 数字2 + 数字3) / 3;
+
+      // 弹出对话框显示平均值
+      alert("平均值为：" + 平均值);
+    }
+  </script>
+</head>
+
+<body>
+  <h1>输入三个整数：</h1>
+
+  <label for="number1">数字1：</label>
+  <input type="number" id="number1"><br><br>
+
+  <label for="number2">数字2：</label>
+  <input type="number" id="number2"><br><br>
+
+  <label for="number3">数字3：</label>
+  <input type="number" id="number3"><br><br>
+
+  <button onclick="计算平均值()">计算平均值！</button>
+</body>
+
+</html>
+

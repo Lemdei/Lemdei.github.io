@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>计算器</title>
+<script>
+        // 在<head>标签内定义的函数
+        function calculateAverageFromInputs() {
+            // 获取三个输入框的值
+            var input1Value = parseFloat(document.getElementById('input1').value);
+            var input2Value = parseFloat(document.getElementById('input2').value);
+            var input3Value = parseFloat(document.getElementById('input3').value);
+
+            // 检查是否输入的是有效数字
+            if (isNaN(input1Value) || isNaN(input2Value) || isNaN(input3Value)) {
+                alert('请输入有效的数字！');
+                return;
+            }
+
+            // 计算平均值
+            var average = (input1Value + input2Value + input3Value) / 3;
+
+            // 输出结果
+            alert('平均值是: ' + average);
+        }
+    </script>
+</head>
+<body>
+    <div>
+		<label for="num1">输入三个整数：</label><br>
+        <!-- 三个图片标签（input） -->
+        <input type="text" id="input1" placeholder="请输入第一个数字">
+        <br>
+        <input type="text" id="input2" placeholder="请输入第二个数字">
+        <br>
+        <input type="text" id="input3" placeholder="请输入第三个数字">
+        <br>
+
+        <!-- 调用计算平均值的函数 -->
+        <button onclick="calculateAverageFromInputs()">计算！</button>
+    </div>
+</body>
+</html>
+
