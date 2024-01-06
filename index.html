@@ -1,38 +1,369 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>index.html</title>
+<title>个人主页</title>
+<!--mobile apps-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="My Resume Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+	SmartPhone Compatible web template, free WebDesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--mobile apps-->
+<!--Custom Theme files-->
+<link rel="shortcut icon" href="your_ico.ico" type="image/x-icon">
+<link rel="icon" href="your_ico.ico" type="image/x-icon">
+<link href="bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="style.css" type="text/css" rel="stylesheet" media="all">
+<link rel="stylesheet" href="swipebox.css">
+<!--//Custom Theme files-->
+<!--js-->
+<script src="jquery-1.11.1.min.js"></script> 
+<!-- //js -->
+<!--web-fonts-->
+<!--<link href='//fonts.googleapis.com/css?family=Overlock:400,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>-->
+<!--<link href='//fonts.googleapis.com/css?family=Roboto+Condensed:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>-->
+<!--//web-fonts-->
+<!--start-smooth-scrolling-->
+<script type="text/javascript" src="move-top.js"></script>
+<script type="text/javascript" src="easing.js"></script>	
+<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			$(".scroll").click(function(event){		
+				event.preventDefault();
+				$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+			});
+		});
+</script>
+<!--//end-smooth-scrolling-->
 </head>
 <body>
-	郑夏莲<br/>
-	实验一:<br/>
-	<li><a href="实验一01.html">实验一01</a><br/></li>
-	<li><a href="实验一02.html">实验一02</a><br/></li>
-	<li><a href="实验一03.html">实验一03</a><br/></li>
-	<li><a href="实验一04.html">实验一04</a><br/></li>
-	<li><a href="实验一05.html">实验一05</a><br/></li>
-	<li><a href="实验一06.html">实验一06</a><br/></li>
-	实验二：<br/>
-	<li><a href="实验二01.html">实验二01</a><br/></li>
-	<li><a href="实验二02.html">实验二02</a><br/></li>
-	<li><a href="实验二03.html">实验二03</a><br/></li>
-	<li><a href="实验二04.html">实验二04</a><br/></li>
-	实验三：<br/>
-	<li><a href="实验三01.html">实验三01</a><br/></li>
-	<li><a href="实验三02.html">实验三02</a><br/></li>
-	<li><a href="实验三03.html">实验三03</a><br/></li>
-	<li><a href="实验三04.html">实验三04</a><br/></li>
-	<li><a href="实验三05.html">实验三05</a><br/></li>
-	<li><a href="实验三06.html">实验三06</a><br/></li>
-	实验四：<br/>
-	<li><a href="实验四01.html">实验四01</a><br/></li>
-	<li><a href="实验四.html">实验四</a><br/></li>
-	实验五：<br/>
-	<li><a href="实验五01.html">实验五01</a><br/></li>
-	<li><a href="实验五02.html">实验五02</a><br/></li>
-	<li><a href="实验五.html">实验五</a><br/></li>
-	实验八：<br/>
-	<li><a href="实验八.html">实验八</a><br/></li>
+	<!--banner-->
+	<audio src="梦的光点.mp3" autoplay loop></audio>
+	<div id="home" class="banner">
+		<!-- header -->
+        <header>
+		<div class="banner-info">
+			<div class="container">
+				<div class="col-md-4 header-left">
+					<img src="img1.jpg" alt=""/>
+				</div>
+				<div class="col-md-8 header-right">
+					<h2>郑夏莲的个人主页</h2>
+					<h1>My name is 郑夏莲</h1>
+					<h6>华东交通大学经济管理学院经济统计学</h6>
+					<ul class="address">
+						<li>
+							<ul class="address-text">
+								<li><b>学号</b></li>
+								<li>2021041010000115</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>出生日期</b></li>
+								<li>2003-07-18</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>个人邮箱 </b></li>
+								<li><a href="http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=OwoLDg0MAwgIDgJ7SkoVWFRW" target="_blank"> 3034840346@qq.com</a></li>
+							</ul>
+						</li>
+						<li>
+							<ul class="address-text">
+								<li><b>家庭住址</b></li>
+								<li>江西省赣州市</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	</header>
+     <!-- //header -->
+	<!--//banner-->
+	<!--top-nav-->
+	<div class="top-nav wow">
+		<div class="container">
+			<div class="navbar-header logo">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					导航
+				</button>
+			</div>
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<div class="menu">
+					<ul class="nav navbar">
+						<li><a href="#about" class="scroll">关于我</a></li>
+						<li><a href="#work" class="scroll">个人介绍</a></li>
+						<li><a href="#education" class="scroll">教育背景</a></li>
+						<li><a href="#skills" class="scroll">个人目标</a></li>
+						<li><a href="#video" class="scroll">视频分享</a></li>
+						<li><a href="#projects" class="scroll">实验作业</a></li>
+						
+					</ul>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+	</div>	
+	
+	<!--//top-nav-->
+	<!--about-->
+	<div id="about" class="about">
+		<div class="container">
+			<h3 class="title"> 关于我</h3>
+			<div class="col-md-4 about-right">
+				<ul>
+					<h5>获奖情况</h5>
+					<li><span class="glyphicon glyphicon-menu-right" ></span> 江西省第十一届“华创杯”调查分析大赛一等奖</li>
+					<li><span class="glyphicon glyphicon-menu-right"></span> 双基竞赛之首届市场调查与分析技能大赛二等奖</li>
+					<li><span class="glyphicon glyphicon-menu-right"></span> “华交50”征文比赛二等奖</li>
+					<li><span class="glyphicon glyphicon-menu-right"></span> 普通话考试二级甲等</li>
+					<li><span class="glyphicon glyphicon-menu-right"></span> ..................................... </li>
+				</ul>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+	
+	<!--//about-->
+	<!--work-experience-->
+	<div id="work" class="work">
+		<div class="container">
+			<h3 class="title">个人介绍</h3>
+			<div class="work-info"> 
+				<div class="col-md-6 work-left"> 
+					<h4>自我介绍 </h4>
+				</div>
+				<div class="col-md-6 work-right"> 
+					<h5><span class="glyphicon glyphicon-briefcase"> </span> 学校专业</h5>
+					<p>华东交通大学 </p>
+					<p>经济管理学院 经济统计2021-1</p>
+					<p>2021041010000115</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="work-info"> 
+				<div class="col-md-6 work-right work-right2"> 
+					<h4>关于兴趣 </h4>
+				</div>
+				<div class="col-md-6 work-left work-left2"> 
+					<h5><span class="glyphicon glyphicon-briefcase"> </span>爱好</h5>
+					<p>喜欢听歌、散步</p>
+					<p>喜欢一个人听着歌、看着书，慢慢消耗时光</p>
+					<p>闲看庭前花开花落,漫卷天外云卷云舒</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="work-info"> 
+				<div class="col-md-6 work-left"> 
+					<h4>关于歌曲</h4>
+				</div>
+				<div class="col-md-6 work-right"> 
+					<h5><span class="glyphicon glyphicon-briefcase"> </span> 轻音乐、古风音乐</h5>
+					<p>《梦的光点》、《眉南边》、《Four Seasons》……</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="work-info"> 
+				<div class="col-md-6 work-left"> 
+					<h4>喜欢的动物</h4>
+				</div>
+				<div class="col-md-6 work-right"> 
+					<h5><span class="glyphicon glyphicon-briefcase"> </span>小狗</h5>
+					<p>修勾真的很可爱，世界上不能没有小狗</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+	</div>
+	</div>
+	<!--//work-experience-->
+	<!--education-->
+	<div id="education" class="education">
+		<div class="container">
+			<h3 class="title">教育背景</h3>
+			<div class="work-info"> 
+				<div class="col-md-6 work-left"> 
+					<h4>2021年-现在</h4>
+				</div>
+				<div class="col-md-6 work-right"> 
+					<h5><span class="glyphicon glyphicon-education"> </span>华东交通大学</h5>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="work-info"> 
+				<div class="col-md-6 work-right work-right2"> 
+					<h4>2018-2021</h4>
+				</div>
+				<div class="col-md-6 work-left work-left2"> 
+					<h5><span class="glyphicon glyphicon-education"> </span>江西省赣州市赣县中学（南校区</h5>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="work-info"> 
+				<div class="col-md-6 work-left"> 
+					<h4>2015-2018</h4>
+				</div>
+				<div class="col-md-6 work-right"> 
+					<h5><span class="glyphicon glyphicon-education"> </span> 江西省赣州市赣县区横溪中学</h5>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="work-info"> 
+				<div class="col-md-6 work-left"> 
+					<h4>2009-2015</h4>
+				</div>
+				<div class="col-md-6 work-right"> 
+					<h5><span class="glyphicon glyphicon-education"> </span> 江西省赣州市赣县区中心小学</h5>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!--//education-->
+	<!--skills-->
+	<div id="skills" class="skills">
+		<div class="container">
+			<h3 class="title">个人目标</h3>
+			<div class="skills-info">
+				<div class="col-md-6 bar-grids">
+					<h6>考试顺利  <span> 80% </span></h6>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" style="width: 80%">
+						</div>
+					</div>
+					<h6>比赛取得好名次 <span> 70% </span></h6>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" style="width: 70%">
+						</div>
+					</div>
+					<h6>顺利完成作业 <span>75% </span></h6>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" style="width: 90%">
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 bar-grids">
+					<h6>逢考必过 <span> 85% </span></h6>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" style="width: 85%">
+						</div>
+					</div>
+					<h6>确定未来的方向<span> 95% </span></h6>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" style="width: 95%">
+						</div>
+					</div>
+					<h6>天天开心<span> 80% </span></h6>
+					<div class="progress">
+						<div class="progress-bar progress-bar-striped active" style="width: 80%">
+						</div>
+					</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</div>
+	<!--//video-->
+	<!--portfolio-->
+	<div id="video" class="portfolio">
+		<div class="container">
+			<h3 class="title">视频分享</h3>
+			<p>Inspired By Passion. Driven By Results.</p>
+         </div>
+                        <div class="text-content"> </div>
+                        <div class="accent-button button">
+                            <a href="#blog">Continue Reading</a>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <div class="box-video">
+                            <div class="bg-video">
+								<video controls>
+									<source src="升旗.mp4" type="video/mp4" align="center" height="40">
+								</video>
+                            </div>
+                            <div class="video-container" style=" height: 40px;">
+                               video
+                            </div>
+							</div>
+						</div>
+						
+	<!--//education-->
+	<!--portfolio-->
+	<div id="projects" class="portfolio">
+		<div class="container">
+			<h3 class="title">实验作业</h3>
+			<div class="sap_tabs">			
+						<li class="resp-tab-item"><span>实验一</span></li>
+					<li><a href="实验一01.html">实验一01</a></li>	
+				    <li><a href="实验一02.html">实验一02</a></li>
+				    <li><a href="实验一03.html">实验一03</a></li>
+				    <li><a href="实验一04.html">实验一04</a></li>
+				    <li><a href="实验一05.html">实验一05</a></li>
+				    <li><a href="实验一06.html">实验一06</a></li>
+					
+						<li class="resp-tab-item"><span>实验二</span></li>
+				   <li><a href="实验二01.html">实验二01</a></li>
+				   <li><a href="实验二02.html">实验二02</a></li>
+				   <li><a href="实验二03.html">实验二03</a></li>
+				   <li><a href="实验二04.html">实验二04</a></li>
+
+						<li class="resp-tab-item"><span>实验三</span></li>
+				   <li><a href="实验三01.html">实验三01</a></li>
+				   <li><a href="实验三02.html">实验三02</a></li>
+				   <li><a href="实验三03.html">实验三03</a></li>
+				   <li><a href="实验三04.html">实验三04</a></li>
+				   <li><a href="实验三05.html">实验三05</a></li>	
+				   <li><a href="实验三06.html">实验三06</a></li>
+					
+						<li class="resp-tab-item"><span>实验四</span></li>
+					<li><a href="实验四01.html">实验四01</a></li>
+					<li><a href="实验四.html">实验四</a></li>
+					
+						<li class="resp-tab-item"><span>实验五</span></li>
+					<li><a href="实验五01.html">实验五01</a></li>
+					<li><a href="实验五02.html">实验五02</a></li>
+					<li><a href="实验五.html">实验五</a></li>
+					
+						<li class="resp-tab-item"><span>实验八</span></li>	
+					<li><a href="index.html">个人主页</a></li>
+		</div>
+		</div>
+		</div>
+		</div>
+		
+	<!--//contact -->
+	<!--footer-->
+	<div class="footer">
+		<div class="container">
+			<p>©2018我的简历。所有权利保留|设计的 更多模板：<a href="http://www.cssmoban.com/" target="_blank">模板之家</a></p>
+		</div>
+	</div>
+	<!--//footer-->
+	<!--smooth-scrolling-of-move-up-->
+	<script type="text/javascript">
+		$(document).ready(function() {
+		
+			var defaults = {
+				containerID: 'toTop', // fading element id
+				containerHoverID: 'toTopHover', // fading element hover id
+				scrollSpeed: 1200,
+				easingType: 'linear' 
+			};
+			
+			$().UItoTop({ easingType: 'easeOutQuart' });
+			
+		});
+	</script>
+	<!--//smooth-scrolling-of-move-up-->
+	<!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="bootstrap.js"></script>
 </body>
 </html>
