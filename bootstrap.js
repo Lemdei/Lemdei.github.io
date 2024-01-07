@@ -2314,4 +2314,4 @@ if (typeof jQuery === 'undefined') {
     })
   })
 
-}(jQuery);// JavaScript Document
+}(jQuery);
